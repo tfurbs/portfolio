@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/tfurbs/portfolio">
-    <img src="./website/img/index.png">
+    <img src="./website/img/index_screenshot.png">
   </a>
 </p>
 
