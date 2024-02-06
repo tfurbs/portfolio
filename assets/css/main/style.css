@@ -888,6 +888,41 @@ section .container {
   color: #12d640;
 }
 
+/* --------------------------------------------------------------
+# Skills
+----------------------------------------------------------------- */
+  .skills {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+  }
+
+  .skills .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .skills .icon-box {
+    background: #001f3f;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: none;
+    border: none;
+    height: 300px;
+  }
+
+  .skills .image-gallery {
+    display: block;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .skills .icon {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0px;
+  }
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
