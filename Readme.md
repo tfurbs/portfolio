@@ -9,7 +9,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://github.com/Lucas-Angelo/portfolio">
+  <a href="https://github.com/tfurbs/portfolio">
     <img src="./website/img/index.png">
   </a>
 </p>
