@@ -176,7 +176,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background: url("../../img/background/tab_bg_wood.png");
   background-size: cover;
   left: 0;
   right: 0;
@@ -191,11 +191,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #b512d6;
 }
 
 a:hover {
-  color: #12d640;
+  color: #ff0000;
   text-decoration: none;
 }
 
@@ -214,6 +214,10 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   z-index: 997;
   overflow-y: auto;
+  background-image: url("../../img/background/home_bg_cow.jpg");
+  background-size: cover;
+  background-position: center;
+  /* Additional background properties if needed */
 }
 
 #header * {
@@ -230,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #dee2e6;
+  color: #ffffff;
   line-height: 1;
   display: inline-block;
 }
@@ -238,11 +242,11 @@ h1, h2, h3, h4, h5, h6 {
 #header h2 {
   font-size: 24px;
   margin-top: 20px;
-  color: #12d640;
+  color: #126f28;
 }
 
 #header h2 span {
-  color: #ffc107;
+  color: #258a51;
   border-bottom: 2px solid #1c7d32;
   padding-bottom: 6px;
 }
@@ -262,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(23, 120, 63);
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -272,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #1c7d32;
+  background: #5222b1bd;
 }
 
 @media (max-width: 992px) {
@@ -340,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #12d640;
+  color: #5fe5ca;
   text-decoration: none;
 }
 
@@ -434,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
+  background: #167c36d9;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -471,7 +475,7 @@ section {
   overflow: hidden;
   position: absolute;
   width: 100%;
-  top: 140px;
+  top: 220px;
   bottom: 100%;
   opacity: 0;
   z-index: 2;
@@ -485,7 +489,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0);
+  background: rgba(12, 114, 43, 0);
   padding: 30px;
 }
 
@@ -640,7 +644,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #09203a;
+  background: #167c36d9;
   transition: ease-in-out 0.3s;
 }
 
@@ -869,7 +873,7 @@ section .container {
 
 .services .icon-box:hover {
   background: #042e5f;
-  border-color: #1c7d32;
+  border-color: #7d1c1c;
 }
 
 .services .icon-box:hover .icon {
