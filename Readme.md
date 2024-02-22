@@ -1,4 +1,4 @@
-<h1 align="center"><a href="www.tylerfurbay.com" target="_blank">Personal Website</a></h1>
+<h1 align="center"><a target="_blank">Personal Website</a></h1>
 
 <h3 align="center">
     <p align="center">
